@@ -9,11 +9,10 @@ function NavbarComponent() {
     localStorage.removeItem("user");
     navigate("/login");
   };
-
   return (
     <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
       <Container>
-        <Navbar.Brand as={Link} to="/">ParfumSite</Navbar.Brand>
+  <Navbar.Brand as={Link} to="/">ParfumSite</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto align-items-center">

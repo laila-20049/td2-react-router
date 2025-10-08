@@ -4,13 +4,15 @@ function About() {
   return (
     <div className="container py-4">
       <div className="row align-items-center gx-3">
+        {/* Image lisar */}
         <div className="col-md-5 text-center">
           <img
            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNus_zDePzgS7RAhk8B1mN2JDO4i-XtXdEmQ&s" alt="About Parfum"
             className="img-fluid rounded shadow about-img"
           />
-        </div>
+  </div>
 
+  {/* Katba limna */}
         <div className="col-md-7 fade-in text-start">
           <h2 className="mb-2">About Us</h2>
           <p className="lead mb-2">
